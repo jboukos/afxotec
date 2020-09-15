@@ -11,7 +11,7 @@ COPY resources/afxotec-applications.xml $HOME_DIR
 #USER payara
 # ENV PAYARA_ARGS --debug
 # Copy  applications
-COPY apps/AfxoBooking-8.0.3.war $DEPLOY_DIR
+COPY apps/AfxoBooking-9.0.3.war $DEPLOY_DIR
 #RUN echo 'healthcheck-configure --dynamic=true --enabled=true' > $POSTBOOT_COMMANDS
 EXPOSE 8080
 ENV DEPLOY_PROPS=--contextroot=/ibooking63
