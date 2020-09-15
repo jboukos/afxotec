@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "afxoakscluster-3feb"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "afxoakscluster-3feb"
+  template:
+    metadata:
+      labels:
+        app: "afxoakscluster-3feb"
+    spec:
+      containers:
+        - name: "afxoakscluster-3feb"
+          image: "afxoazurecontainerregistry.azurecr.io/afxoakscluster"
+          ports:
+          - containerPort: 80
