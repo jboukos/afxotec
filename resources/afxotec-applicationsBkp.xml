@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<APPLICATIONS>
+	<INTERNET_PROXY>
+		<HTTPS>
+			<HOST/>
+			<PORT/>
+			<USER/>
+			<PSWD/>
+		</HTTPS>
+	</INTERNET_PROXY>
+
+	<!--INTERNET_BO2>
+		<DB_HOST_NAME>afxotec.gr</DB_HOST_NAME>
+		<DB_PORT_NO>1521</DB_PORT_NO>
+		<DB_SID>XE4</DB_SID>
+		<DB_USR_ID>cin</DB_USR_ID>
+		<DB_PSWD>CIN1</DB_PSWD>
+		<HOST_PATH_URL>http://www.afxotec.gr:8080</HOST_PATH_URL>
+		<PROXY_PATH_URL>http://www.afxotec.gr:8080</PROXY_PATH_URL>
+		<PROXY_PATH_URLS>https://www.afxotec.gr:8181</PROXY_PATH_URLS>
+		<SHOWS_PER_PAGE>30</SHOWS_PER_PAGE>
+		<SHOWS_NUM_AFTER_NBOTTOM_NAV_BAR>10</SHOWS_NUM_AFTER_NBOTTOM_NAV_BAR>
+		<CINEPLEX_LIST>1</CINEPLEX_LIST>
+
+		<DEFAULT_IBOOKING_APPLICATION>ibooking63</DEFAULT_IBOOKING_APPLICATION>            
+		<DEFAULT_IBOOKING_APPLICATION_DEVELOP>ibooking63</DEFAULT_IBOOKING_APPLICATION_DEVELOP>  
+
+		<MAIL_FEATURE>1</MAIL_FEATURE>
+		<SMS_FEATURE>1</SMS_FEATURE>
+
+		<DEFAULT_CUST_GROUP_ID>1</DEFAULT_CUST_GROUP_ID>
+		<CUST_GROUP_SELECT>1</CUST_GROUP_SELECT>
+
+	</INTERNET_BO2-->
+
+	<!--INTERNET_BO3>
+		<DB_HOST_NAME>afxotec.gr</DB_HOST_NAME>
+		<DB_PORT_NO>1521</DB_PORT_NO>
+		<DB_SID>XE4</DB_SID>
+		<DB_USR_ID>cin</DB_USR_ID>
+		<DB_PSWD>CIN1</DB_PSWD>
+		<HOST_PATH_URL>http://www.afxotec.gr:8080</HOST_PATH_URL>
+		<PROXY_PATH_URL>http://www.afxotec.gr:8080</PROXY_PATH_URL>
+		<PROXY_PATH_URLS>https://www.afxotec.gr:8181</PROXY_PATH_URLS>
+		<SHOWS_PER_PAGE>30</SHOWS_PER_PAGE>
+		<SHOWS_NUM_AFTER_NBOTTOM_NAV_BAR>10</SHOWS_NUM_AFTER_NBOTTOM_NAV_BAR>
+		<CINEPLEX_LIST>1</CINEPLEX_LIST>
+
+		<DEFAULT_IBOOKING_APPLICATION>ibooking63</DEFAULT_IBOOKING_APPLICATION>            
+		<DEFAULT_IBOOKING_APPLICATION_DEVELOP>ibooking63</DEFAULT_IBOOKING_APPLICATION_DEVELOP>  
+
+		<MAIL_FEATURE>1</MAIL_FEATURE>
+		<SMS_FEATURE>0</SMS_FEATURE>
+
+		<DEFAULT_BANK_PAY_WEB_CLIENT>easypaywebclient/pay.jsp</DEFAULT_BANK_PAY_WEB_CLIENT>
+		<BANK_PAY_POST_REDIR_PAGE>bankpaylistener.jsp</BANK_PAY_POST_REDIR_PAGE>
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE>prepaycheck.jsp</BANK_PAY_PRE_REDIR_CHECK_PAGE>
+
+		<DEFAULT_CUST_GROUP_ID>1</DEFAULT_CUST_GROUP_ID>
+		<CUST_GROUP_SELECT>1</CUST_GROUP_SELECT>
+
+	</INTERNET_BO3-->
+
+	<INTERNET_BO5>
+		<DB_HOST_NAME>www.afxotec.gr</DB_HOST_NAME>
+		<DB_PORT_NO>1539</DB_PORT_NO>
+		<DB_SID>XEPDB1</DB_SID>
+		<DB_USR_ID>cin</DB_USR_ID>
+		<DB_PSWD>CIN1</DB_PSWD> 
+
+		<HOST_PATH_URL>http://www.afxotec.gr:8080</HOST_PATH_URL>
+		<PROXY_PATH_URL>http://www.afxotec.gr:8080/</PROXY_PATH_URL>
+		<PROXY_PATH_URLS>https://www.afxotec.gr:8181/</PROXY_PATH_URLS>
+		<SHOWS_PER_PAGE>30</SHOWS_PER_PAGE>
+		<SHOWS_NUM_AFTER_NBOTTOM_NAV_BAR>10</SHOWS_NUM_AFTER_NBOTTOM_NAV_BAR>
+		<CINEPLEX_LIST>0</CINEPLEX_LIST>
+		<DB_ENC_PSWD>SMc089NES1AI8hxmDsJ6aw==</DB_ENC_PSWD> 
+		<DEFAULT_IBOOKING_APPLICATION>ibooking63</DEFAULT_IBOOKING_APPLICATION>				
+
+		<URL_CONTEXT_ROOT>http://www.afxotec.gr:8080/ibookingBeans56/</URL_CONTEXT_ROOT>
+		<CINEPLEX_LOGO_LOCATION>https://www.afxotec.gr/ebookingImages</CINEPLEX_LOGO_LOCATION>
+		<POSTER_LOCATION>https://www.afxotec.gr/ebookingImages</POSTER_LOCATION>		
+
+		<DEFAULT_IBOOKING_APPLICATION>ibooking63</DEFAULT_IBOOKING_APPLICATION>            
+		<DEFAULT_IBOOKING_APPLICATION_DEVELOP>ibooking63</DEFAULT_IBOOKING_APPLICATION_DEVELOP>  
+
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE>http://www.afxotec.gr:8080/IBookingBeans-5.1/BookingResources/afxo.booking.ibooking.beans.brequestcentral/bankRedirPreValidation</BANK_PAY_PRE_REDIR_CHECK_PAGE>
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE_DEVELOP>http://www.afxotec.gr:8080/IBookingBeans-5.1/BookingResources/afxo.booking.ibooking.beans.brequestcentral/bankRedirPreValidation</BANK_PAY_PRE_REDIR_CHECK_PAGE_DEVELOP>
+		<DEFAULT_BANK_PAY_WEB_CLIENT>easypaywebclient/pay.jsp</DEFAULT_BANK_PAY_WEB_CLIENT>
+		<BANK_PAY_POST_REDIR_PAGE>bankpaylistener.xhtml</BANK_PAY_POST_REDIR_PAGE>
+
+		<MAIL_FEATURE>1</MAIL_FEATURE>
+		<SMS_FEATURE>0</SMS_FEATURE>
+
+	</INTERNET_BO5>
+
+
+
+	<ibooking62>
+		<HOST_PATH_URL>http://www.afxotec.gr:8080</HOST_PATH_URL>
+		<PROXY_PATH_URL>http://www.afxotec.gr:8080</PROXY_PATH_URL>
+		<PROXY_PATH_URLS>http://www.afxotec.gr:8080</PROXY_PATH_URLS>
+		<CINEPLEX_LIST>0</CINEPLEX_LIST>
+		<DEFAULT_IBOOKING_APPLICATION>ibooking63</DEFAULT_IBOOKING_APPLICATION>
+		<DEFAULT_IBOOKING_APPLICATION_DEVELOP>ibooking63</DEFAULT_IBOOKING_APPLICATION_DEVELOP>
+		<MAIL_FEATURE>1</MAIL_FEATURE>
+		<SMS_FEATURE>0</SMS_FEATURE>
+
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE>http://afxotec.gr:8080/IBookingBeans-5.8/BookingResources/afxo.booking.ibooking.beans.brequestcentral/bankRedirPreValidation</BANK_PAY_PRE_REDIR_CHECK_PAGE>
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE_DEVELOP>http://afxotec.gr:8080/IBookingBeans-5.8/BookingResources/afxo.booking.ibooking.beans.brequestcentral/bankRedirPreValidation</BANK_PAY_PRE_REDIR_CHECK_PAGE_DEVELOP>
+		<DEFAULT_BANK_PAY_WEB_CLIENT>easypaywebclient/pay.jsp</DEFAULT_BANK_PAY_WEB_CLIENT>
+		<BANK_PAY_POST_REDIR_PAGE>bankpaylistener.xhtml</BANK_PAY_POST_REDIR_PAGE>
+
+		<URL_CONTEXT_ROOT>http://afxotec.gr:8080/IBookingBeans-5.8/</URL_CONTEXT_ROOT>
+		<CINEPLEX_LOGO_LOCATION>https://www.afxotec.gr/AfxoBookingBackOffice/images/</CINEPLEX_LOGO_LOCATION>
+		<POSTER_LOCATION>https://www.afxotec.gr/AfxoBookingBackOffice/images/</POSTER_LOCATION>
+
+		<URL_SEND_MAIL_SMS>http://afxotec.gr:8080/</URL_SEND_MAIL_SMS>
+		<URL_COUPON_CONTEXT_ROOT>http://www.afxotec.gr:8080/AfxoCouponService/webresources/</URL_COUPON_CONTEXT_ROOT>
+		<!--URL_COMM_CONTEXT_ROOT>http://www.afxotec.gr:8080/AfxoCentralBookingComm53/</URL_COMM_CONTEXT_ROOT-->	
+        <!--URL_COMM_CONTEXT_ROOT>http://www.afxotec.gr:8080/CentralBookingComm55/</URL_COMM_CONTEXT_ROOT-->
+        <URL_COMM_CONTEXT_ROOT>http://www.afxotec.gr:8080/CentralBookingComm62/</URL_COMM_CONTEXT_ROOT>
+		
+		<CUST_GROUP_SELECT>1</CUST_GROUP_SELECT>
+		<DEFAULT_CUST_GROUP_ID>1</DEFAULT_CUST_GROUP_ID>
+
+		<!--EMAIL_URL>http://afxotec.gr:8080/AfxoCentralBookingComm55/ws/checkSendMail/order?orderId=:orderId</EMAIL_URL-->
+		<!--EMAIL_URL>http://www.afxotec.gr:8080/CentralBookingComm55/ws/checkSendMail/order?orderId=:orderId</EMAIL_URL-->
+		<EMAIL_URL>http://www.afxotec.gr:8080/CentralBookingComm62/ws/checkSendMail/order?orderId=:orderId</EMAIL_URL>
+		
+		<!--DATABASE_ENCODING>ISO-8859-7</DATABASE_ENCODING-->
+		<DATABASE_ENCODING>UTF-8</DATABASE_ENCODING>
+
+	</ibooking62> 
+
+
+<ibooking63>
+		<HOST_PATH_URL>http://www.afxotec.gr:8080</HOST_PATH_URL>
+		<PROXY_PATH_URL>http://www.afxotec.gr:8080</PROXY_PATH_URL>
+		<PROXY_PATH_URLS>http://www.afxotec.gr:8080</PROXY_PATH_URLS>
+		<CINEPLEX_LIST>0</CINEPLEX_LIST>
+		<DEFAULT_IBOOKING_APPLICATION>ibooking63</DEFAULT_IBOOKING_APPLICATION>
+		<DEFAULT_IBOOKING_APPLICATION_DEVELOP>ibooking63</DEFAULT_IBOOKING_APPLICATION_DEVELOP>
+		<MAIL_FEATURE>1</MAIL_FEATURE>
+		<SMS_FEATURE>0</SMS_FEATURE>
+
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE>http://afxotec.gr:8080/IBookingBeans-5.8/BookingResources/afxo.booking.ibooking.beans.brequestcentral/bankRedirPreValidation</BANK_PAY_PRE_REDIR_CHECK_PAGE>
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE_DEVELOP>http://afxotec.gr:8080/IBookingBeans-5.8/BookingResources/afxo.booking.ibooking.beans.brequestcentral/bankRedirPreValidation</BANK_PAY_PRE_REDIR_CHECK_PAGE_DEVELOP>
+		<DEFAULT_BANK_PAY_WEB_CLIENT>easypaywebclient/pay.jsp</DEFAULT_BANK_PAY_WEB_CLIENT>
+		<BANK_PAY_POST_REDIR_PAGE>bankpaylistener.xhtml</BANK_PAY_POST_REDIR_PAGE>
+
+		<URL_CONTEXT_ROOT>http://afxotec.gr:8080/IBookingBeans-5.8/</URL_CONTEXT_ROOT>
+		<URL_CONTEXT_ROOT_BANK>http://afxotec.gr:8080/IBookingBeans-5.8/</URL_CONTEXT_ROOT_BANK>
+		
+		<URL_CONTEXT_ROOT_READ_ONLY>http://afxotec.gr:8080/IBookingBeans-5.8/</URL_CONTEXT_ROOT_READ_ONLY>
+		
+		<CINEPLEX_LOGO_LOCATION>https://www.afxotec.gr/AfxoBookingBackOffice/images/</CINEPLEX_LOGO_LOCATION>
+		<POSTER_LOCATION>https://www.afxotec.gr/AfxoBookingBackOffice/images/</POSTER_LOCATION>
+
+		<URL_SEND_MAIL_SMS>http://afxotec.gr:8080/</URL_SEND_MAIL_SMS>
+		<URL_COUPON_CONTEXT_ROOT>http://www.afxotec.gr:8080/AfxoCouponService/webresources/</URL_COUPON_CONTEXT_ROOT>
+		<!--URL_COMM_CONTEXT_ROOT>http://www.afxotec.gr:8080/AfxoCentralBookingComm53/</URL_COMM_CONTEXT_ROOT-->	
+                <!--URL_COMM_CONTEXT_ROOT>http://www.afxotec.gr:8080/CentralBookingComm55/</URL_COMM_CONTEXT_ROOT-->
+                <URL_COMM_CONTEXT_ROOT>http://www.afxotec.gr:8080/CentralBookingComm62/</URL_COMM_CONTEXT_ROOT>
+		
+		<CUST_GROUP_SELECT>1</CUST_GROUP_SELECT>
+		<DEFAULT_CUST_GROUP_ID>1</DEFAULT_CUST_GROUP_ID>
+
+		<!--EMAIL_URL>http://afxotec.gr:8080/AfxoCentralBookingComm55/ws/checkSendMail/order?orderId=:orderId</EMAIL_URL-->
+		<!--EMAIL_URL>http://www.afxotec.gr:8080/CentralBookingComm55/ws/checkSendMail/order?orderId=:orderId</EMAIL_URL-->
+		<EMAIL_URL>http://www.afxotec.gr:8080/CentralBookingComm62/ws/checkSendMail/order?orderId=:orderId</EMAIL_URL>
+		
+		<DATABASE_ENCODING>ISO-8859-7</DATABASE_ENCODING>
+		<!--DATABASE_ENCODING>UTF-8</DATABASE_ENCODING-->
+                <REDIRECTED_SERVER_URL>http://afxo.tech:18080</REDIRECTED_SERVER_URL>
+                <REDIRECTED_APPLICATION_URL>http://afxo.tech:18080/ibooking63</REDIRECTED_APPLICATION_URL>
+
+	</ibooking63> 
+
+     <AfxoRetailEShop>
+		<HOST_PATH_URL>http://www.afxotec.gr:8080</HOST_PATH_URL>
+		<PROXY_PATH_URL>http://www.afxotec.gr:8080</PROXY_PATH_URL>
+		<PROXY_PATH_URLS>http://www.afxotec.gr:8080</PROXY_PATH_URLS>
+		<CINEPLEX_LIST>0</CINEPLEX_LIST>
+		<DEFAULT_IBOOKING_APPLICATION>AfxoRetailEShop</DEFAULT_IBOOKING_APPLICATION>
+		<DEFAULT_IBOOKING_APPLICATION_DEVELOP>AfxoRetailEShop</DEFAULT_IBOOKING_APPLICATION_DEVELOP>
+		<MAIL_FEATURE>1</MAIL_FEATURE>
+		<SMS_FEATURE>0</SMS_FEATURE>
+
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE>http://afxotec.gr:8080/IBookingBeans-5.8/BookingResources/afxo.booking.ibooking.beans.brequestcentral/bankRedirPreValidation</BANK_PAY_PRE_REDIR_CHECK_PAGE>
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE_DEVELOP>http://afxotec.gr:8080/IBookingBeans-5.8/BookingResources/afxo.booking.ibooking.beans.brequestcentral/bankRedirPreValidation</BANK_PAY_PRE_REDIR_CHECK_PAGE_DEVELOP>
+		<DEFAULT_BANK_PAY_WEB_CLIENT_URL>http://afxotec.gr:8080/easypaywebclient/pay.jsp</DEFAULT_BANK_PAY_WEB_CLIENT_URL>
+		<BANK_PAY_POST_REDIR_PAGE>bankpaylistener.xhtml</BANK_PAY_POST_REDIR_PAGE>
+
+		<URL_CONTEXT_ROOT>http://afxotec.gr:8080/IBookingBeans-5.8/</URL_CONTEXT_ROOT>
+		<URL_CONTEXT_ROOT_BANK>http://afxotec.gr:8080/IBookingBeans-5.8/</URL_CONTEXT_ROOT_BANK>
+		
+		<URL_CONTEXT_ROOT_READ_ONLY>http://afxotec.gr:8080/IBookingBeans-5.8/</URL_CONTEXT_ROOT_READ_ONLY>
+		
+		<CINEPLEX_LOGO_LOCATION>https://www.afxotec.gr/AfxoBookingBackOffice/images/</CINEPLEX_LOGO_LOCATION>
+		<POSTER_LOCATION>https://www.afxotec.gr/AfxoBookingBackOffice/images/</POSTER_LOCATION>
+
+		<URL_SEND_MAIL_SMS>http://afxotec.gr:8080/</URL_SEND_MAIL_SMS>
+		
+                <DATABASE_ENCODING>ISO-8859-7</DATABASE_ENCODING>
+		<!--DATABASE_ENCODING>UTF-8</DATABASE_ENCODING-->
+                <REDIRECTED_SERVER_URL>http://afxotec.gr:8080</REDIRECTED_SERVER_URL>
+                <REDIRECTED_APPLICATION_URL>http://afxotec.gr:8080/AfxoRetailEShop</REDIRECTED_APPLICATION_URL>
+               
+                <PRINTING_PATH_URL>http://afxotec.gr:8080/RetailEshopJasperPrint/GetPrintEShopOrderPDFServlet?RetailOrderId=:orderId</PRINTING_PATH_URL>
+                <EMAIL_URL>http://afxotec.gr:8080/RetailEShopComm62/ws/checkSendMail/order?orderId=:orderId</EMAIL_URL>
+
+	</AfxoRetailEShop> 
+
+        <RETAIL_REPORT_PRINTING>
+		<DB_HOST_NAME>afxotec.gr</DB_HOST_NAME>
+		<DB_PORT_NO>1539</DB_PORT_NO>
+		<DB_SID>XEPDB1</DB_SID>  
+		<DB_USR_ID>cin</DB_USR_ID>
+		<DB_PSWD>CIN1</DB_PSWD>
+		<REPORT_NAME>EshopOrderQR.jasper</REPORT_NAME>
+		<IMAGE_URI>http://afxotec.gr:8080/AfxoRetailEShop</IMAGE_URI>
+	</RETAIL_REPORT_PRINTING>
+
+	<easypaywebclient56>	
+		<HOST_PATH_URL>http://www.afxotec.gr:8080</HOST_PATH_URL>
+		<PROXY_PATH_URL>http://www.afxotec.gr:8080</PROXY_PATH_URL>
+		<PROXY_PATH_URLS>http://www.afxotec.gr:8080</PROXY_PATH_URLS>
+		<SHOWS_PER_PAGE>30</SHOWS_PER_PAGE>
+		<SHOWS_NUM_AFTER_NBOTTOM_NAV_BAR>10</SHOWS_NUM_AFTER_NBOTTOM_NAV_BAR>
+
+		<DEFAULT_IBOOKING_APPLICATION>ibooking63</DEFAULT_IBOOKING_APPLICATION>		       
+		<DEFAULT_IBOOKING_APPLICATION_DEVELOP>ibooking63</DEFAULT_IBOOKING_APPLICATION_DEVELOP>            
+		<MAIL_FEATURE>1</MAIL_FEATURE>
+		<SMS_FEATURE>0</SMS_FEATURE>		  
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE>http://afxotec.gr:8080/IBookingBeans-5.8/BookingResources/afxo.booking.ibooking.beans.brequestcentral/bankRedirPreValidation</BANK_PAY_PRE_REDIR_CHECK_PAGE>
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE_DEVELOP>http://afxotec.gr:8080/IBookingBeans-5.8/BookingResources/afxo.booking.ibooking.beans.brequestcentral/bankRedirPreValidation</BANK_PAY_PRE_REDIR_CHECK_PAGE_DEVELOP>
+		<DEFAULT_BANK_PAY_WEB_CLIENT>easypaywebclient/pay.jsp</DEFAULT_BANK_PAY_WEB_CLIENT>
+		<BANK_PAY_POST_REDIR_PAGE>bankpaylistener.xhtml</BANK_PAY_POST_REDIR_PAGE>
+	</easypaywebclient56>
+
+       <easypaywebclient70>
+             
+		<PROXY_PATH_URL>http://www.afxotec.gr:8080</PROXY_PATH_URL>
+		<PROXY_PATH_URLS>http://www.afxotec.gr:8080</PROXY_PATH_URLS>
+		<DEFAULT_IBOOKING_APPLICATION>ibooking63</DEFAULT_IBOOKING_APPLICATION>		       
+		<DEFAULT_IBOOKING_APPLICATION_DEVELOP>ibooking63</DEFAULT_IBOOKING_APPLICATION_DEVELOP>      
+	 
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE>IBookingBeans-5.8/BookingResources/afxo.booking.ibooking.beans.brequestcentral/bankRedirPreValidation</BANK_PAY_PRE_REDIR_CHECK_PAGE>
+		<BANK_PAY_PRE_REDIR_CHECK_PAGE_DEVELOP>IBookingBeans-5.8/BookingResources/afxo.booking.ibooking.beans.brequestcentral/bankRedirPreValidation</BANK_PAY_PRE_REDIR_CHECK_PAGE_DEVELOP>
+		<DEFAULT_BANK_PAY_WEB_CLIENT>easypaywebclient/pay.jsp</DEFAULT_BANK_PAY_WEB_CLIENT>
+		<BANK_PAY_POST_REDIR_PAGE>bankpaylistener.xhtml</BANK_PAY_POST_REDIR_PAGE>
+	</easypaywebclient70>
+
+	<BANK_PAY> 
+		<WINBANK_EASY_PAY>
+			<ACQUIRER_ID>14</ACQUIRER_ID>
+			<WS_ACQUIRER_ID>GR014</WS_ACQUIRER_ID>
+			<MERCHANT_ID>2135705596</MERCHANT_ID>
+			<POS_ID>2144451549</POS_ID>
+			<INSTALLMENTS>0</INSTALLMENTS>
+			<USER_NAME>AF006468</USER_NAME>
+			<ENC_PSWD>p3ZuFkeXglhQdaPQHZeL5A==</ENC_PSWD>
+			<MD5_ENC_PSWD>78860268884cde6ce9067907e307d03d</MD5_ENC_PSWD>
+			<AUTO_UNCOMPLETED_TRANS_VALIDATION_TIMEOUT>6</AUTO_UNCOMPLETED_TRANS_VALIDATION_TIMEOUT>
+			<UNCOMPLETED_TRANS_VALIDATION_MINUTES_BEFORE_FROM>16</UNCOMPLETED_TRANS_VALIDATION_MINUTES_BEFORE_FROM>
+			<UNCOMPLETED_TRANS_VALIDATION_MINUTES_BEFORE_TO>47</UNCOMPLETED_TRANS_VALIDATION_MINUTES_BEFORE_TO>
+			<GATEWAY_PROXY_VALIDATION_URL>http://www.afxotec.gr:8080/AfxoEasypayPaymentGatewayProxyWS_4_0/ws/paymentvalidate</GATEWAY_PROXY_VALIDATION_URL>
+		</WINBANK_EASY_PAY>
+
+		<WINBANK_EASY_PAY_DEV>
+			<ACQUIRER_ID>14</ACQUIRER_ID>
+			<WS_ACQUIRER_ID>GR014</WS_ACQUIRER_ID>
+			<MERCHANT_ID>2135705596</MERCHANT_ID>
+			<POS_ID>2144451549</POS_ID>
+			<INSTALLMENTS>0</INSTALLMENTS>
+			<USER_NAME>AF006468</USER_NAME>
+			<ENC_PSWD>p3ZuFkeXglhQdaPQHZeL5A==</ENC_PSWD>
+			<MD5_ENC_PSWD>78860268884cde6ce9067907e307d03d</MD5_ENC_PSWD>
+			<AUTO_UNCOMPLETED_TRANS_VALIDATION_TIMEOUT>6</AUTO_UNCOMPLETED_TRANS_VALIDATION_TIMEOUT>
+			<UNCOMPLETED_TRANS_VALIDATION_MINUTES_BEFORE_FROM>16</UNCOMPLETED_TRANS_VALIDATION_MINUTES_BEFORE_FROM>
+			<UNCOMPLETED_TRANS_VALIDATION_MINUTES_BEFORE_TO>47</UNCOMPLETED_TRANS_VALIDATION_MINUTES_BEFORE_TO>
+			<GATEWAY_PROXY_VALIDATION_URL>http://www.afxotec.gr:8080/AfxoEasypayPaymentGatewayProxyWS_4_0/ws/paymentvalidate</GATEWAY_PROXY_VALIDATION_URL>
+		</WINBANK_EASY_PAY_DEV>
+	</BANK_PAY>
+
+	<TICKETS_PRINTING_REMOTE>
+		<SITE_ID>1</SITE_ID>
+		<POS_ID>01</POS_ID>
+		<TICKET_SERIES>01</TICKET_SERIES> 
+		<REPORT_NAME>TicketXmlV2.jasper</REPORT_NAME>
+		<!--LOCAL_PATH_URL>http://:cplxWServerIp:8080/:lPrnServiceName/ticket?orderid=:orderId</LOCAL_PATH_URL-->
+		<LOCAL_PATH_URL>http://www.afxotec.gr:8080/ibookingprintingl40/ticket?orderid=:orderId</LOCAL_PATH_URL>
+		<CENTRAL_PATH_URL>http://www.afxotec.gr:8080/ibookingprintingc40/ws/ticket?orderid=:orderId</CENTRAL_PATH_URL>
+	</TICKETS_PRINTING_REMOTE>
+
+	<TICKETS_PRINTING_REMOTE_V40>
+		<DB_HOST_NAME>www.afxotec.gr</DB_HOST_NAME>
+		<DB_PORT_NO>1539</DB_PORT_NO>
+		<DB_SID>XEPDB1</DB_SID> 
+		<DB_USR_ID>cin</DB_USR_ID>
+		<DB_PSWD>CIN1</DB_PSWD>
+		<SITE_ID>1</SITE_ID>
+		<POS_ID>01</POS_ID>
+		<TICKET_SERIES>01</TICKET_SERIES>
+		<REPORT_NAME>TicketXmlV2.jasper</REPORT_NAME>
+		<!--LOCAL_PATH_URL>http://:cplxWServerIp:8080/:lPrnServiceName/ticket?orderid=:orderId</LOCAL_PATH_URL-->
+		<LOCAL_PATH_URL>http://www.afxotec.gr:8080/ibookingprintingl40/ticket?orderid=:orderId</LOCAL_PATH_URL>
+		<CENTRAL_PATH_URL>http://www.afxotec.gr:8080/ibookingprintingc40/ws/ticket?orderid=:orderId</CENTRAL_PATH_URL>
+	</TICKETS_PRINTING_REMOTE_V40>
+
+
+	<CONNECTIONS>
+		<CONNECTION NAME="XE">
+			<HOST>www.afxotec.gr</HOST>  
+			<PORT>1539</PORT>
+			<SID>XEPDB1</SID> 
+			<USER>cin</USER>  
+			<PSWD>CIN1</PSWD>
+		</CONNECTION> 
+	</CONNECTIONS>
+
+	<MAIL>
+		<!--https://admin.google.com/AdminHome?pli=1&fral=1#ServiceSettings/notab=1&service=securitysetting&subtab=lesssecureappsaccess -->
+		<SMTP_SERVER>smtp.gmail.com</SMTP_SERVER>
+		<SMTP_SERVER_PORT>587</SMTP_SERVER_PORT>
+		<SMTP_SERVER_USER>afxotec@gmail.com</SMTP_SERVER_USER>
+		<SMTP_SERVER_ENC_PSWD>7mJnIY77VBX34pVHIYDF1A==</SMTP_SERVER_ENC_PSWD>
+
+		<BOOKING>
+			<SENDER_EMAIL>afxotec@gmail.com</SENDER_EMAIL>
+			<SENDER_NAME>Afxo Booking Ticketing</SENDER_NAME>
+			<AUTO_MAIL_CHECK_TIMEOUT>10</AUTO_MAIL_CHECK_TIMEOUT> 
+
+			<MAIL_ORDER_COMPLETED> 
+				<SUBJECT>Παραγγελία: :orderId - Τα εισιτήρια σας</SUBJECT>
+				<MESSAGE> 
+					<![CDATA[
+Αγαπητέ :customerFullName,<br/>
+ 
+Με το παρόν e-mail η  Cinema σας επιβεβαιώνει ότι η συναλλαγή που πραγματοποιήσατε στο ηλεκτρονικό κατάστημα Cinema διεκπεραιώθηκε με επιτυχία μέσω της e-Commerce πλατφόρμας της. <br/>
+ 
+Τα στοιχεία της συναλλαγής σας είναι:<br/>
+ 
+Κωδικός Παραγγελίας: :orderId <br/>
+Ποσό Παραγγελίας: :pmntAmount <br/>
+Ημερομηνία Παραγγελίας: :orderDate <br/>
+ 
+Εισιτήρια: :orderTicketsInfo<br/>
+]]>
+				</MESSAGE> 
+			</MAIL_ORDER_COMPLETED>
+
+			<MAIL_ORDER_FAILED>
+				<SUBJECT>Παραγγελία: :orderId - Τα εισιτήρια σας</SUBJECT>
+				<MESSAGE>
+					<![CDATA[
+Αγαπητέ :customerFullName,<br/>
+ 
+Η παραγγελία των εισιτηρίων στο ηλεκτρονικό κατάστημα  Cinema δεν ολοκληρώθηκε.<br/>
+ 
+Τα στοιχεία της συναλλαγής σας είναι:<br/>
+ 
+Κωδικός Παραγγελίας: :orderId <br/>
+Ποσό Παραγγελίας: :pmntAmount <br/>
+Ημερομηνία Συναλλαγής: :orderDate<br/>
+ 
+Εισιτήρια: :orderTicketsInfo<br/>
+]]>
+				</MESSAGE>
+			</MAIL_ORDER_FAILED>
+
+		</BOOKING> 
+		<RETAIL_ESHOP>
+			<SENDER_EMAIL>afxotec@gmail.com</SENDER_EMAIL>
+			<SENDER_NAME>ΑΥΞΩtec EShop Retail</SENDER_NAME>
+			<AUTO_MAIL_CHECK_TIMEOUT>2</AUTO_MAIL_CHECK_TIMEOUT> 
+
+            <ERROR_PRINTING_IMAGE>http://www.afxotec.gr:8080/AfxoBtrRestBackOffice/EmailEmpty.pdf</ERROR_PRINTING_IMAGE> 
+			<MAIL_ORDER_COMPLETED> 
+				<SUBJECT>Παραγγελία ΑΥΞΩtec EShop Retail :orderId </SUBJECT>
+				<MESSAGE> 
+					<![CDATA[
+Αγαπητέ :customerFullName,<br/>
+ 
+Με το παρόν e-mail η  ΑΥΞΩtec EShop Retail σας επιβεβαιώνει ότι η συναλλαγή που πραγματοποιήσατε στο ηλεκτρονικό κατάστημα  διεκπεραιώθηκε με επιτυχία μέσω της e-Commerce πλατφόρμας της. <br/>
+ 
+Τα στοιχεία της συναλλαγής σας είναι:<br/>
+ 
+Κωδικός Παραγγελίας: :orderId <br/>
+Ποσό Παραγγελίας: :pmntAmount <br/>
+Ημερομηνία Παραγγελίας: :orderDate <br/>
+ <br/>
+]]>
+				</MESSAGE> 
+			</MAIL_ORDER_COMPLETED>
+
+			<MAIL_ORDER_FAILED>
+				<SUBJECT>Παραγγελία: :orderId </SUBJECT>
+				<MESSAGE>
+					<![CDATA[
+Αγαπητέ :customerFullName,<br/>
+ 
+Η παραγγελία  στο ηλεκτρονικό κατάστημα  ολοκληρώθηκε.<br/>
+ 
+Τα στοιχεία της συναλλαγής σας είναι:<br/>
+ 
+Κωδικός Παραγγελίας: :orderId <br/>
+Ποσό Παραγγελίας: :pmntAmount <br/>
+Ημερομηνία Συναλλαγής: :orderDate<br/>
+<br/>
+]]>
+				</MESSAGE>
+			</MAIL_ORDER_FAILED>
+
+		</RETAIL_ESHOP> 
+	</MAIL>
+
+	<SMS>
+		<DEFAULT_SENDER_TEXT>Afxo Tec Cinema</DEFAULT_SENDER_TEXT>
+		<MESSAGE><![CDATA[Τα εισιτήρια με κωδικό :orderId αξίας :pmntAmount ευρώ στάλθηκαν στο email σας. Καλή διασκέδαση.]]></MESSAGE>
+		<ACTIVE_PROVIDER>1</ACTIVE_PROVIDER>
+		<PROVIDER1_USER_NAME>webmaster@afxotec.gr</PROVIDER1_USER_NAME>
+		<PROVIDER1_ENC_PSWD>6/YYORYBVDzNuMCol7R9HA==</PROVIDER1_ENC_PSWD>
+	</SMS>
+
+
+	<JASPER_REPORTS>
+		<HOME>C:\Users\johna\OneDrive\Documents\NetBeansProjects\tag\src\main\webapp\reports\DayCloseReport_3_3_2</HOME>
+	</JASPER_REPORTS>
+
+     <GDPR>
+		<COMPANY_NAME>ΑΥΞΩtec S.A.</COMPANY_NAME>
+		<ADDRESS>Γ.ΣΤΑΥΡΟΥ 6 - ΑΘΗΝΑ , 12345</ADDRESS>
+		<TELEPHONE>2109316200</TELEPHONE>
+		<EMAIL>cinema@afxotec.gr</EMAIL>
+		<AFM>099937358</AFM>
+		<DOI>ΦΑΕ ΑΘΗΝΩΝ</DOI>
+	</GDPR>
+	
+</APPLICATIONS>
+
