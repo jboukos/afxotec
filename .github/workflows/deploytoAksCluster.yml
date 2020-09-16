@@ -14,7 +14,7 @@ jobs:
     - name: Build and push image to ACR
       id: build-image
       run: |
-        docker build . -f  "https://github.com/jboukos/afxotec" -t afxoazurecontainerregistry.azurecr.io/afxoakscluster:${{ github.sha }}
+        docker build "$GITHUB_WORKSPACE/" -f  "Dockerfile" -t afxoazurecontainerregistry.azurecr.io/afxoakscluster:${{ github.sha }}
         docker push afxoazurecontainerregistry.azurecr.io/afxoakscluster:${{ github.sha }}
     
     - uses: azure/k8s-set-context@v1
@@ -24,15 +24,15 @@ jobs:
     
     - name: Create namespace
       run: |
-        namespacePresent=`kubectl get namespace | grep afxoaksclusterbd98 | wc -l`
+        namespacePresent=`kubectl get namespace | grep afxoakscluster69a1 | wc -l`
         if [ $namespacePresent -eq 0 ]
         then
-            echo `kubectl create namespace afxoaksclusterbd98`
+            echo `kubectl create namespace afxoakscluster69a1`
         fi
 
     - uses: azure/k8s-create-secret@v1
       with:
-        namespace: afxoaksclusterbd98
+        namespace: afxoakscluster69a1
         container-registry-url: afxoazurecontainerregistry.azurecr.io
         container-registry-username: ${{ secrets.acr_afxoazurecontainerregistry_username }}
         container-registry-password: ${{ secrets.acr_afxoazurecontainerregistry_password }}
@@ -40,10 +40,10 @@ jobs:
        
     - uses: azure/k8s-deploy@v1
       with:
-        namespace: afxoaksclusterbd98
+        namespace: afxoakscluster69a1
         manifests: |
-          manifests/deployment.yml
-          manifests/service.yml
+          manifests/deployment-1.yml
+          manifests/service-1.yml
         images: |
           afxoazurecontainerregistry.azurecr.io/afxoakscluster:${{ github.sha }}
         imagepullsecrets: |
