@@ -1,10 +1,11 @@
-on: release:
-    types: [published]
+on: [push]
 jobs:
-  build-and-push:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    - name: Build and push image to Docker
     steps:
+    - uses: actions/checkout@master
+    - name: Build and push image to Docker
+    
     - uses: actions/checkout@master
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
@@ -14,5 +15,5 @@ jobs:
 
       id: build-image
       run: |
-        docker build "$GITHUB_WORKSPACE/" -f  "Dockerfile" -t afxo-booking-micro-small
+        docker build "$GITHUB_WORKSPACE"/azure/. -f  "Dockerfile" -t afxo-booking-micro-small
         docker push afxo-booking-micro-small
