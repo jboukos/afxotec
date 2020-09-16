@@ -14,7 +14,7 @@ jobs:
     - name: Build and push image to ACR
       id: build-image
       run: |
-        docker build "$GITHUB_WORKSPACE"/azure/. -f  "https://github.com/jboukos/afxotec" -t afxoazurecontainerregistry.azurecr.io/afxoakscluster:${{ github.sha }}
+        docker build "$GITHUB_WORKSPACE/" -f  "https://github.com/jboukos/afxotec" -t afxoazurecontainerregistry.azurecr.io/afxoakscluster:${{ github.sha }}
         docker push afxoazurecontainerregistry.azurecr.io/afxoakscluster:${{ github.sha }}
     
     - uses: azure/k8s-set-context@v1
