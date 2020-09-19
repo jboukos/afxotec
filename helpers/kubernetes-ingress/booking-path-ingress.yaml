@@ -1,0 +1,28 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: booking-path-ingress
+  namespace: afxo-aws-booking
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+    - host: afxo.tech
+      http:
+        paths:
+          - path: /booking
+            backend:
+              serviceName: afxo-ibooking
+              servicePort: 80
+          - path: /bar
+            backend:
+              serviceName: afxo-service
+              servicePort: 80
+    - host: 
+      http:
+        paths:
+          - path: /afxo
+            backend:
+              serviceName: afxo-ibooking
+              servicePort: 8080
+     

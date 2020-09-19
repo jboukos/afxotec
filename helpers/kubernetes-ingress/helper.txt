@@ -1,0 +1,6 @@
+kubectl get ing -n afxo-aws-booking
+kubectl describe ing   micro-ingress -n afxo-aws-booking
+kubectl describe ing   path-ingress -n afxo-aws-booking
+
+
+kubectl get svc --all-namespaces
