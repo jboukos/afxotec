@@ -1,0 +1,61 @@
+Google(Google Cloud)
+
+https://console.cloud.google.com/home/dashboard?cloudshell=false&project=centering-seer-289906&folder=&supportedpurview=project
+
+https://console.cloud.google.com/kubernetes/discovery?organizationId=1091748047497&project=centering-seer-289906&pageState=(%22savedViews%22:(%22i%22:%2296b2e8a36ba5472b961fb159c4414cb4%22,%22c%22:%5B%5D,%22n%22:%5B%22default%22%5D))
+
+
+http://35.228.188.250/ibooking63/shows.xhtml
+
+***
+
+Microsoft Azure
+
+https://portal.azure.com/#@jboukosafxo.onmicrosoft.com/resource/subscriptions/0f213a0e-b30e-4ad9-9222-46636dad445e/resourceGroups/AfxoResourceGroup/providers/Microsoft.ContainerService/managedClusters/AfxoAKSCluster/eventlogs
+
+
+az aks browse --resource-group AfxoResourceGroup --name AfxoAKSCluster
+
+kubectl config view -o jsonpath='{.users[?(@.name == "clusterUser_AfxoResourceGroup_AfxoAKSCluster")].user.auth-provider.config.access-token}'
+
+http://127.0.0.1:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#/overview?namespace=default
+
+http://127.0.0.1:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#/service?namespace=afxoakscluster69a1
+
+use Firefox
+token :
+ 2d9b1fe0a6aeeb5478bc20b06f239079e405d351b7fcba9ac94137ba9fdd2e1141eb9afed58a3031ef436825f9a21c54d1f10062b87465ed5505650cf9055efd
+ 
+on Docker service only:
+ http://afxoibookingcontainerazure.eastus.azurecontainer.io:8080/ibooking63/shows.xhtml
+ 
+ on kubernetes service:
+ http://40.76.149.238:8080/ibooking63/shows.xhtml
+ 
+ 
+ ************
+Amazon
+ https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Feu-central-1.console.aws.amazon.com%2Fecr%2Frepositories%3Fregion%3Deu-central-1%26state%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fecr&forceMobileApp=0&code_challenge=dRwjpQIIdKhzz09fPAKpNsPPss1-Nw3W5pac7PY51CQ&code_challenge_method=SHA-256
+ 
+
+ aws eks --region eu-central-1 update-kubeconfig --name afxo-cluster-booking
+ kubectl get svc
+ 
+ #kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep eks-admin | awk '{print $1}')
+ kubectl get pods --all-namespaces 
+ 
+ kubectl proxy
+ 
+ http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#!/login
+
+ 
+ 
+ http://a35285de724ab4743a154c06b67e29a9-35176376.eu-central-1.elb.amazonaws.com/ibooking63/shows.xhtml
+ 
+ ###################
+ gitHub
+ https://github.com/jboukos/afxotec
+ 
+ 
+ 
+ 
