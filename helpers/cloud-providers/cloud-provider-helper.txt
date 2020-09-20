@@ -75,6 +75,9 @@ firefox http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/ht
 
 
 http://afxo.tech/ibooking63/shows.xhtml
+####
+https://hub.docker.com/repository/docker/jboukos/afxoibookingpublic
+
  ###################
  gitHub
  https://github.com/jboukos/afxotec
