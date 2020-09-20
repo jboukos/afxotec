@@ -52,6 +52,29 @@ Amazon
  
  http://a35285de724ab4743a154c06b67e29a9-35176376.eu-central-1.elb.amazonaws.com/ibooking63/shows.xhtml
  
+
+####
+afxo.tech
+$Env:KUBECONFIG="$Env:KUBECONFIG;$HOME\.kube\config"
+
+kubectl create deployment --image=docker.io/jboukos/afxoibookingpublic:latest  afxo-ibooking-micro-docker-public
+
+kubectl expose deployment  afxo-ibooking-micro-docker-public --port=80  --target-port=8080 --name=afxo-ibooking --external-ip=95.216.204.123
+
+kubectl get deployments
+kubectl get pods
+ kubectl logs afxo-ibooking-micro-docker-public-576b585c4c-wwcdr
+ kubectl get svc --all-namespaces
+
+kubectl autoscale deployment afxo-ibooking-micro-docker-public --min=2 --max=4
+
+ kubectl proxy
+ ssh -X afxo@afxo.tech
+
+firefox http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/.
+
+
+http://afxo.tech/ibooking63/shows.xhtml
  ###################
  gitHub
  https://github.com/jboukos/afxotec
